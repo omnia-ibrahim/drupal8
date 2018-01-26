@@ -1,0 +1,14 @@
+
+# hi menu items definition
+entity.foo.collection:
+  title: 'hi list'
+  route_name: entity.foo.collection
+  description: 'List hi entities'
+  parent: system.admin_structure
+  weight: 100
+
+foo.admin.structure.settings:
+  title: hi settings
+  description: 'Configure hi entities'
+  route_name: foo.settings
+  parent: system.admin_structure

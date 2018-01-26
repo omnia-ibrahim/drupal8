@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Installation functions for Hellow world module.
+ */
+
+use Drupal\user\RoleInterface;
+
+/**
+ * Implements hook_install().
+ */
+function hellow_world_install() {
+  user_role_change_permissions(RoleInterface::ANONYMOUS_ID, array(
+    'hello world perm' => TRUE,
+  ));
+}
+

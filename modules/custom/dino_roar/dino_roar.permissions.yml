@@ -1,0 +1,30 @@
+add hi entities:
+  title: 'Create new hi entities'
+
+administer hi entities:
+  title: 'Administer hi entities'
+  description: 'Allow to access the administration form to configure hi entities.'
+  restrict access: true
+
+delete hi entities:
+  title: 'Delete hi entities'
+
+edit hi entities:
+  title: 'Edit hi entities'
+
+view published hi entities:
+  title: 'View published hi entities'
+
+view unpublished hi entities:
+  title: 'View unpublished hi entities'
+
+view all hi revisions:
+  title: 'View all hi revisions'
+
+revert all hi revisions:
+  title: 'Revert all hi revisions'
+  description: 'Role requires permission <em>view hi revisions</em> and <em>edit rights</em> for hi entities in question or <em>administer hi entities</em>.'
+
+delete all hi revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view hi revisions</em> and <em>delete rights</em> for hi entities in question or <em>administer hi entities</em>.'
